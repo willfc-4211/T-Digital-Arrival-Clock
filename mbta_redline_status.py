@@ -5,7 +5,7 @@ from datetime import datetime, timedelta, timezone
 API_URL = "https://api-v3.mbta.com/alerts?filter[route]=Red"
 
 # My MBTA Developer API key
-API_KEY = "3b210c66cb154a1cbdbf6f482b582f55"
+API_KEY = "" # Add MBTA API Key here.  Obtain a free API key at https://api-v3.mbta.com/
 
 def check_red_line_disruptions():
     headers = {
